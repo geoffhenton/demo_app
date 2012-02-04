@@ -4,4 +4,10 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+#class Application 
+#  include Rake::DSL 
+#end 
+
+require 'rake/dsl_definition'
+
 DemoApp::Application.load_tasks
